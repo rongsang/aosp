@@ -219,7 +219,6 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -234,8 +233,9 @@
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   
+  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
+  
   <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="ics" />
-
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="ics" />
   <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="ics" />
 
