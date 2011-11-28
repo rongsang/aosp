@@ -9,7 +9,7 @@
            fetch="git://github.com/" />
   
   <remote  name="x13thangelx"
-           fetch="git://github.com/x13thangelx/"
+           fetch="git://github.com/x13thangelx/" />
 
  <default  remote="gsource"
 	   revision="gingerbread-release"
