@@ -8,6 +8,9 @@
   
   <remote  name="x13thangelx"
            fetch="git://github.com/x13thangelx/" />
+  
+  <remote  name="source"
+           fetch="git://github.com/android/" />
 
  <default  remote="gsource"
 	   revision="gingerbread-release"
@@ -16,7 +19,7 @@
   <project path="build" name="android_build" remote="x13thangelx" revision="gingerbread">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/bootloader/legacy" name="platform_bootloader_legacy" remote="source" revision="master" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
