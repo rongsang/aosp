@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- GB manifest -->
 <manifest>
   <remote  name="gsource"
            fetch="https://android.googlesource.com/"/>
 
   <remote  name="github"
            fetch="git://github.com/" />
+  
+  <remote  name="x13thangelx"
+           fetch="git://github.com/x13thangelx/"
 
  <default  remote="gsource"
 	   revision="gingerbread-release"
 	    />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github" revision="gingerbread">
+  <project path="build" name="android_build" remote="x13thangelx" revision="gingerbread">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -167,7 +172,7 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="system_extras" remote="x13thangelx" revision="master"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
@@ -187,8 +192,8 @@
   
   <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
 
-  <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13thangelx" revision="gingerbread" />
   <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master" />
-  <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="master" />
+  <project path="manifest" name="aosp" remote="x13thangelx" revision="master" />
 
 </manifest>
