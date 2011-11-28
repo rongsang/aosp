@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- GB manifest -->
 <manifest>
   <remote  name="gsource"
            fetch="https://android.googlesource.com/"/>
