@@ -5,6 +5,9 @@
 
   <remote  name="github"
            fetch="git://github.com/" />
+           
+  <remote  name="CM"
+           fetch="git://github.com/CyanogenMod/"
   
   <remote  name="x13thangelx"
            fetch="git://github.com/x13thangelx/" />
@@ -121,7 +124,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="CM" revision="gingerbread" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
