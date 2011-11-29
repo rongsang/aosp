@@ -7,7 +7,7 @@
            fetch="git://github.com/" />
            
   <remote  name="CM"
-           fetch="git://github.com/CyanogenMod/"
+           fetch="git://github.com/CyanogenMod/" />
   
   <remote  name="x13thangelx"
            fetch="git://github.com/x13thangelx/" />
