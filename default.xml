@@ -198,6 +198,13 @@
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="gingerbread" />
   
   <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
+  
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="CM" revision="gingerbread" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="CM" revision="gingerbread" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="CM" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Androidian" name="android_vendor_tmobile_themes_Androidian" remote="CM" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="android_vendor_tmobile_themes_Cyanbread" remote="CM" revision="gingerbread" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="CM" revision="gingerbread" />
 
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13thangelx" revision="gingerbread" />
   <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master" />
