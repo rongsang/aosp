@@ -22,7 +22,7 @@
   <project path="build" name="android_build" remote="x13thangelx" revision="gingerbread">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/bootloader/legacy" name="platform_bootloader_legacy" remote="source" revision="master" />
+  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="CM" revision="gingerbread" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
