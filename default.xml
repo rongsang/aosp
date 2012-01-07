@@ -187,7 +187,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="gingerbread" />
-  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" />
+  <project path="device/motorola/common" name="android_device_motorola_common" remote="x13thangelx" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="gingerbread" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="gingerbread" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="gingerbread" />
