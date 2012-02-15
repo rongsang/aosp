@@ -252,12 +252,12 @@
   <project path="device/motorola/hijack" name="MotoMagic/android_device_moto_hijack" remote="github" revision="ics" />
   <project path="packages/apps/Usb" name="MotoMagic/android_packages_apps_Usb" remote="github" revision="ics" />
 
-  <project path="device/motorola/droid2we" name="x13thangelx/android_device_motorola_droid2we" remote="github" revision="cm9" />
-  <project path="vendor/motorola" name="x13thangelx/proprietary_vendor_motorola" remote="github" revision="cm9" />
+  <project path="device/motorola/droid2we" name="CM9-D2G/android_device_motorola_droid2we" remote="github" revision="cm9" />
+  <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" revision="ics" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
-  <project path="android" name="Global-KANGs/aosp" remote="github" revision="cm9" />
+  <project path="android" name="CM9-D2G/aosp" remote="github" revision="cm9" />
 </manifest>
