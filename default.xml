@@ -256,6 +256,7 @@
 
   <project path="device/motorola/shadow" name="CM9-D2G/android_device_motorola_shadow" remote="github" revision="cm9" />
   <project path="device/motorola/droid2we" name="CM9-D2G/android_device_motorola_droid2we" remote="github" revision="cm9" />
+  <project path="device/motorola/droid2" name="CM9-D2G/android_device_motorola_droid2" remote="github" revision="cm9" />
   <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
   <project path="frameworks/base" name="CM9-D2G/android_framework_base" remote="github" revision="ics" />
