@@ -260,7 +260,7 @@
   <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
   <project path="frameworks/base" name="CM9-D2G/android_framework_base" remote="github" revision="ics" />
-  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" revision="ics" />
+  <project path="packages/apps/Phone" name="CM9-D2G/android_packages_apps_Phone" revision="ics" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
   <project path="android" name="CM9-D2G/aosp" remote="github" revision="cm9" />
