@@ -172,7 +172,6 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
@@ -260,6 +259,7 @@
   <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
   <project path="frameworks/base" name="CM9-D2G/android_framework_base" remote="github" revision="ics" />
+  <project path="hardware/libhardware" name="CM9-D2G/android_hardware_libhardware" revision="ics" />
   <project path="packages/apps/Phone" name="CM9-D2G/android_packages_apps_Phone" revision="ics" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
