@@ -15,7 +15,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -257,6 +256,7 @@
   <project path="device/motorola/droid2" name="CM9-D2G/android_device_motorola_droid2" remote="github" revision="cm9" />
   <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
+  <project path="bionic" name="tpruvot/android_bionic" remote="github" revision="ics" />
   <project path="frameworks/base" name="CM9-D2G/android_framework_base" remote="github" revision="ics" />
   <project path="hardware/ril" name="CM9-D2G/android_hardware_ril" remote="github" revision="ics" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
