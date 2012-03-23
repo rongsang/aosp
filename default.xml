@@ -204,6 +204,7 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -262,7 +263,6 @@
   <project path="frameworks/base" name="CM9-D2G/android_framework_base" remote="github" revision="ics" />
   <project path="hardware/ril" name="CM9-D2G/android_hardware_ril" remote="github" revision="ics" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
-  <project path="packages/apps/Phone" name="CM9-D2G/android_packages_apps_Phone" remote="github" revision="ics" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
   <project path="android" name="CM9-D2G/aosp" remote="github" revision="cm9" />
