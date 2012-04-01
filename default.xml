@@ -42,6 +42,7 @@
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
+  <project path="external/bootmenu" name="CyanogenMod/android_external_bootmenu" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -218,6 +219,7 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -253,7 +255,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="device/motorola/hijack" name="CM9-D2G/android_device_moto_hijack" remote="github" revision="ics" />
-  <project path="packages/apps/Usb" name="MotoMagic/android_packages_apps_Usb" remote="github" revision="ics" />
 
   <project path="device/motorola/shadow" name="CM9-D2G/android_device_motorola_shadow" remote="github" revision="cm9" />
   <project path="device/motorola/droid2we" name="CM9-D2G/android_device_motorola_droid2we" remote="github" revision="cm9" />
