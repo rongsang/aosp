@@ -264,7 +264,7 @@
 
   <project path="bionic" name="tpruvot/android_bionic" remote="github" revision="ics" />
   <project path="frameworks/base" name="CM9-D2G/android_framework_base" remote="github" revision="ics" />
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
+  <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
 
   <project path="android" name="CM9-D2G/aosp" remote="github" revision="cm9" />
 </manifest>
