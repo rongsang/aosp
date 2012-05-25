@@ -170,7 +170,7 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="hardware/libhardware" name="CM9-D2G/android_hardware_libhardware" remote="github" revision="ics"/>
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="CM9-D2G/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/ril" name="CM9-D2G/android_hardware_ril" remote="github" branch="ics" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
