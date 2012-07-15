@@ -153,7 +153,7 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
-  <project path="external/v8" name="CM9-D2G/android_external_v8" remote="github" revision="ics" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
   <project path="external/webkit" name="CM9-D2G/android_external_webkit" remote="github" revision="ics" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
