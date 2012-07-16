@@ -10,9 +10,6 @@
   <remote  name="omap-zoom"
            fetch="git://git.omapzoom.org/" />
 
-  <remote  name="linaro"
-           fetch="git://android.git.linaro.org/" />
-
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
