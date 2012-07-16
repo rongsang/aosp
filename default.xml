@@ -7,9 +7,6 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <remote  name="omap-zoom"
-           fetch="git://git.omapzoom.org/" />
-
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
