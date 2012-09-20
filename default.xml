@@ -128,8 +128,6 @@
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
-  <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="master" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
